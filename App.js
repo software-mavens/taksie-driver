@@ -1,10 +1,14 @@
-import { NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './src/navigation/AppNavigator';
+import { StatusBar } from "expo-status-bar";
+import { Provider as PaperProvider } from "react-native-paper";
+
+import AppNavigator from "./src/navigation/AppNavigator";
+import theme from "./src/theme/theme";
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <PaperProvider theme={theme}>
+      <StatusBar style="dark" />
       <AppNavigator />
-    </NavigationContainer>
+    </PaperProvider>
   );
 }
