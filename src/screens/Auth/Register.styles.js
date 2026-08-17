@@ -47,6 +47,52 @@ export default StyleSheet.create({
     marginLeft: spacing.xs,
   },
 
+  sectionTitle: {
+    color: colors.primary,
+    fontSize: 13,
+    fontWeight: "700",
+    letterSpacing: 1,
+    marginBottom: spacing.md,
+  },
+
+  vehicleGroup: {
+    marginBottom: spacing.lg,
+  },
+
+  vehicleOption: {
+    minHeight: 58,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: borderRadius.xl,
+    paddingHorizontal: spacing.lg,
+    marginBottom: spacing.sm,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+
+  vehicleOptionSelected: {
+    borderColor: colors.secondary,
+    backgroundColor: "#FFF4DE",
+  },
+
+  vehicleText: {
+    color: colors.primary,
+    fontSize: 16,
+    fontWeight: "600",
+  },
+
+  vehicleTextSelected: {
+    fontWeight: "700",
+  },
+
+  vehicleCheck: {
+    color: colors.secondary,
+    fontSize: 20,
+    fontWeight: "800",
+  },
+
   registerButton: {
     backgroundColor: colors.secondary,
     borderRadius: borderRadius.xl,
