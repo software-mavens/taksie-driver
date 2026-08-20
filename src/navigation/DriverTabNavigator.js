@@ -10,6 +10,7 @@ import ProfileScreen from "../screens/Profile/ProfileScreen";
 
 import theme from "../theme/theme";
 import styles from "./DriverTabNavigator.styles";
+import SessionNavigator from "./SessionNavigator";
 
 const { colors } = theme;
 
@@ -78,7 +79,7 @@ export default function DriverTabNavigator() {
     >
       <Tab.Screen
         name="Session"
-        component={SessionScreen}
+        component={SessionNavigator}
       />
 
       <Tab.Screen

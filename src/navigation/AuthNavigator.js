@@ -33,6 +33,7 @@ export default function AuthNavigator() {
         name="Main"
         component={DriverTabNavigator}
       />
+ 
     </Stack.Navigator>
   );
 }
